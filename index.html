@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 + NodeJS + Socket.io</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<div id="login">
+    <center>
+    	<h2>Nick</h2>
+    	<input type="text" id="nick"><br>
+		<input type="button" id="enter" value="Comenzar">
+	</center>
+</div>
+
+<div id="content">
+	<button id="start">Comenzar</button>
+	<div id="concept">Concepto: <span id="word"></span></div>
+	<div style="margin-top: 20px;">
+	    <canvas id="canvas" width="400" height="400"></canvas>
+	    <div id="rightPanel">
+	        <textarea id="textArea" readonly></textarea>
+	        <input type="text" id="input">
+	        <input type="submit" id="send" value="Enviar" onkeypress="myFunction()">
+	    </div>
+    </div>
+    <div id="tools">
+    	<button id="clear">Limpiar</button>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="socket.io.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>

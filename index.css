@@ -1,0 +1,51 @@
+#login {
+	background-color: #cccccc;
+	position: relative;
+	width: 500px;
+	height: 200px;
+	border: solid 1px;
+}
+
+#canvas {
+	border: solid 1px;
+	cursor: pointer;
+}
+
+#textArea {
+	background-color: #cccccc;
+	height: 370px;
+	resize: none;
+	width: 250px;
+	position: absolute;
+	left: 10px;
+}
+
+#input {
+	width: 200px;
+	position: absolute;
+	bottom: 0px;
+	left: 10px;
+}
+
+#send {
+	width: 50px;
+	position: absolute;
+	bottom: 0px;
+	left: 220px;
+}
+
+#content {
+	position: relative;	
+	display: none;
+}
+
+#rightPanel {
+	display: inline;
+	position: relative;
+}
+/*
+div {
+	display: inline;
+	position: relative;
+}
+*/
